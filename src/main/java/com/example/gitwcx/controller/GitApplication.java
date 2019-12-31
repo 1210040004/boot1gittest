@@ -10,4 +10,8 @@ public class GitApplication {
         return "hello git" ;
     }
     // 开发人员写了一句话
+    @RequestMapping("info2")
+    public String info2(){
+        return "hello git2";
+    }
 }
