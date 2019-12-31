@@ -14,4 +14,11 @@ public class GitApplication {
     public String info2(){
         return "hello git2";
     }
+
+    //代码修改
+    @RequestMapping("PUSH")
+    public String info3(){
+        return "hello git3";
+    }
+
 }
