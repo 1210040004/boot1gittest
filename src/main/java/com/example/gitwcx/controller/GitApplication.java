@@ -9,4 +9,16 @@ public class GitApplication {
     public String info(){
         return "hello git" ;
     }
+    // 开发人员写了一句话
+    @RequestMapping("info2")
+    public String info2(){
+        return "hello git2";
+    }
+
+    //代码修改
+    @RequestMapping("PUSH")
+    public String info3(){
+        return "hello git3";
+    }
+
 }
