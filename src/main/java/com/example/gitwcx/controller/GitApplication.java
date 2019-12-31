@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class GitApplication {
     @RequestMapping("info")
     public String info(){
-        return "hello git 开发人员提交" ;
+        return "hello git  项目经理提交" ;
     }
     // 开发人员写了一句话
     @RequestMapping("info2")
